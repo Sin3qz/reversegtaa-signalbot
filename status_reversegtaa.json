@@ -1,0 +1,1681 @@
+{
+  "strategy": "reverse-GTAA (Mean-Reversion-Sleeve)",
+  "key": "reversegtaa",
+  "updated": "2026-09-21T14:09:07.968560+02:00",
+  "rebalance": "monthly_last",
+  "rebalanceLabel": "letzter Handelstag des Monats",
+  "ntfyMode": "monthly",
+  "notifyDays": [
+    "monthly_last",
+    "monthly_first"
+  ],
+  "asOf": "2026-09-18",
+  "needsRetry": false,
+  "changedToday": false,
+  "changeType": null,
+  "cooldown": 0,
+  "nextRebalance": "2026-09-30",
+  "allocation": [
+    {
+      "asset": "EM",
+      "display": "Emerging Markets",
+      "weight": 0.7,
+      "leverage": 3,
+      "product": "3x Emerging Markets ETP (real; ISIN vom Nutzer bestaetigen)",
+      "isin": ""
+    },
+    {
+      "asset": "GOLD",
+      "display": "Gold",
+      "weight": 0.3,
+      "leverage": 3,
+      "product": "WisdomTree Gold 3x Daily Leveraged",
+      "isin": "IE00B8HGT870"
+    }
+  ],
+  "signals": {
+    "NASDAQ100": {
+      "momentum": 0.385757,
+      "trend": true,
+      "marginSMA": 0.079822,
+      "rankValue": 0.056322,
+      "display": "Nasdaq 100",
+      "leverage": 3,
+      "rebound": 9.6e-05
+    },
+    "EM": {
+      "momentum": 0.40193,
+      "trend": true,
+      "marginSMA": 0.060003,
+      "rankValue": 0.042978,
+      "display": "Emerging Markets",
+      "leverage": 3,
+      "rebound": -0.004445
+    },
+    "GOLD": {
+      "momentum": -0.040177,
+      "trend": false,
+      "marginSMA": -0.042012,
+      "rankValue": -0.042138,
+      "display": "Gold",
+      "leverage": 3,
+      "rebound": 0.025336
+    }
+  },
+  "freshness": {
+    "NASDAQ100": {
+      "last": "2026-09-18",
+      "fresh": true
+    },
+    "EM": {
+      "last": "2026-09-18",
+      "fresh": true
+    },
+    "GOLD": {
+      "last": "2026-09-18",
+      "fresh": true
+    }
+  },
+  "history": [
+    {
+      "date": "2025-02-14",
+      "allocation": "NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-02-18",
+      "allocation": "NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-02-19",
+      "allocation": "NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-02-20",
+      "allocation": "NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-02-21",
+      "allocation": "NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-02-24",
+      "allocation": "NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-02-25",
+      "allocation": "NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-02-26",
+      "allocation": "NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-02-27",
+      "allocation": "NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-02-28",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-03",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-04",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-05",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-06",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-07",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-10",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-11",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-12",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-13",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-14",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-17",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-18",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-19",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-20",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-21",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-24",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-25",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-26",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-27",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-28",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-03-31",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-01",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-02",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-03",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-04",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-07",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-08",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-09",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-10",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-11",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-14",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-15",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-16",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-17",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-21",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-22",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-23",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-24",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-25",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-28",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-29",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-04-30",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-01",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-02",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-05",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-06",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-07",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-08",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-09",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-12",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-13",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-14",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-15",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-16",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-19",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-20",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-21",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-22",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-23",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-27",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-28",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-29",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2025-05-30",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-02",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-03",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-04",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-05",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-06",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-09",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-10",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-11",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-12",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-13",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-16",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-17",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-18",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-20",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-23",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-24",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-25",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-26",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-27",
+      "allocation": "EM:0.3|NASDAQ100:0.7"
+    },
+    {
+      "date": "2025-06-30",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-01",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-02",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-03",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-07",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-08",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-09",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-10",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-11",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-14",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-15",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-16",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-17",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-18",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-21",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-22",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-23",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-24",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-25",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-28",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-29",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-30",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-07-31",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-01",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-04",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-05",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-06",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-07",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-08",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-11",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-12",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-13",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-14",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-15",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-18",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-19",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-20",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-21",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-22",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-25",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-26",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-27",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-28",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-08-29",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-02",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-03",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-04",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-05",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-08",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-09",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-10",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-11",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-12",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-15",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-16",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-17",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-18",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-19",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-22",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-23",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-24",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-25",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-26",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-29",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-09-30",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-01",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-02",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-03",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-06",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-07",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-08",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-09",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-10",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-13",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-14",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-15",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-16",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-17",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-20",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-21",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-22",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-23",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-24",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-27",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-28",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-29",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-30",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2025-10-31",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-03",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-04",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-05",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-06",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-07",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-10",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-11",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-12",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-13",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-14",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-17",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-18",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-19",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-20",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-21",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-24",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-25",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-26",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-11-28",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-01",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-02",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-03",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-04",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-05",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-08",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-09",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-10",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-11",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-12",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-15",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-16",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-17",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-18",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-19",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-22",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-23",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-24",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-26",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-29",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-30",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2025-12-31",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-02",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-05",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-06",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-07",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-08",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-09",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-12",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-13",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-14",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-15",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-16",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-20",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-21",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-22",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-23",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-26",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-27",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-28",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-29",
+      "allocation": "EM:0.5"
+    },
+    {
+      "date": "2026-01-30",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-02",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-03",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-04",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-05",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-06",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-09",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-10",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-11",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-12",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-13",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-17",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-18",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-19",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-20",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-23",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-24",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-25",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-26",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-02-27",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-02",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-03",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-04",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-05",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-06",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-09",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-10",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-11",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-12",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-13",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-16",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-17",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-18",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-19",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-20",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-23",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-24",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-25",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-26",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-27",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-30",
+      "allocation": "EM:0.7"
+    },
+    {
+      "date": "2026-03-31",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-01",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-02",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-06",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-07",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-08",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-09",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-10",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-13",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-14",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-15",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-16",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-17",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-20",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-21",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-22",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-23",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-24",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-27",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-28",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-29",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-04-30",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-01",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-04",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-05",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-06",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-07",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-08",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-11",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-12",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-13",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-14",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-15",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-18",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-19",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-20",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-21",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-22",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-26",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-27",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-28",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-05-29",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-01",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-02",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-03",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-04",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-05",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-08",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-09",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-10",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-11",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-12",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-15",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-16",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-17",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-18",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-22",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-23",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-24",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-25",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-26",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-29",
+      "allocation": "EM:0.7|NASDAQ100:0.3"
+    },
+    {
+      "date": "2026-06-30",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-01",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-02",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-06",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-07",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-08",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-09",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-10",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-13",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-14",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-15",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-16",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-17",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-20",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-21",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-22",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-23",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-24",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-27",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-28",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-29",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-30",
+      "allocation": "NASDAQ100:0.5"
+    },
+    {
+      "date": "2026-07-31",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-03",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-04",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-05",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-06",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-07",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-10",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-11",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-12",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-13",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-14",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-17",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-18",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-19",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-20",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-21",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-24",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-25",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-26",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-27",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-28",
+      "allocation": "CASH"
+    },
+    {
+      "date": "2026-08-31",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2026-09-01",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2026-09-02",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2026-09-03",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2026-09-04",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2026-09-08",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2026-09-09",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2026-09-10",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2026-09-11",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2026-09-14",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2026-09-15",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2026-09-16",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2026-09-17",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2026-09-18",
+      "allocation": "EM:0.7|GOLD:0.3"
+    }
+  ]
+}
