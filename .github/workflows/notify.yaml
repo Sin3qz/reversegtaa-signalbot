@@ -68,7 +68,7 @@ jobs:
         run: |
           # Autor = DU (Sin3qz) statt github-actions[bot] -> zaehlt als Nutzer-Aktivitaet.
           git config --global user.name "Sin3qz"
-          git config --global user.email "Sin3qz@users.noreply.github.com"
+          git config --global user.email "patrickdietrich2@gmail.com"
           git add .
           git diff --cached --quiet && echo "Nichts zu committen" && exit 0
           git commit -m "Update signals [ci skip]"
