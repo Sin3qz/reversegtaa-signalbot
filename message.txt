@@ -1,19 +1,19 @@
 📊 reverse-GTAA (Mean-Reversion-Sleeve) — Tagesstatus (kein ntfy-Meldetag)
-Aktuelle Flop-2-Zusammensetzung (18.09.2026):
+Aktuelle Flop-2-Zusammensetzung (21.09.2026):
 📈 Gehalten:
-   •  50%  Gold (3x)
-   •  50%  Cash (Fallback)
+   •  70%  Emerging Markets (3x)
+   •  30%  Gold (3x)
 (ntfy-Meldung jeweils am: letzter Handelstag & 1. Handelstag des Monats)
 
 Signale je Baustein (USD, 1x-Kurse):
 ```
 Baustein          SMA110/175 Rebound    Status
-Gold              -4.2%      +2.5%      HALT 50%
-Emerging Markets  +4.3%      -0.4%      Flop2, Rebound<=0 -> Cash
-Nasdaq 100        +5.6%      +0.0%      kein Flop2
+Gold              -4.3%      +1.5%      HALT 30%
+Emerging Markets  +4.3%      +2.0%      HALT 70%
+Nasdaq 100        +5.7%      +3.4%      kein Flop2
 ```
 
-Kursstand: 18.09.2026
+Kursstand: 21.09.2026
 
 Signale auf zuverlaessigen USD-1x-Kursen (Yahoo); kein Xetra-Lag (B1).
 Gehebelte ETPs: Pfad-/Emittentenrisiko. Dekorrelierter Sleeve, kein Kern-Invest. KEINE ANLAGEBERATUNG.

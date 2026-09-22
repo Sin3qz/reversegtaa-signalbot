@@ -1,7 +1,7 @@
 {
   "strategy": "reverse-GTAA (Mean-Reversion-Sleeve)",
   "key": "reversegtaa",
-  "updated": "2026-09-21T14:09:07.968560+02:00",
+  "updated": "2026-09-22T11:59:21.280934+02:00",
   "rebalance": "monthly_last",
   "rebalanceLabel": "letzter Handelstag des Monats",
   "ntfyMode": "monthly",
@@ -9,7 +9,7 @@
     "monthly_last",
     "monthly_first"
   ],
-  "asOf": "2026-09-18",
+  "asOf": "2026-09-21",
   "needsRetry": false,
   "changedToday": false,
   "changeType": null,
@@ -35,52 +35,48 @@
   ],
   "signals": {
     "NASDAQ100": {
-      "momentum": 0.385757,
+      "momentum": 0.568814,
       "trend": true,
-      "marginSMA": 0.079822,
-      "rankValue": 0.056322,
+      "marginSMA": 0.109773,
+      "rankValue": 0.056764,
       "display": "Nasdaq 100",
       "leverage": 3,
-      "rebound": 9.6e-05
+      "rebound": 0.034055
     },
     "EM": {
-      "momentum": 0.40193,
+      "momentum": 0.558597,
       "trend": true,
-      "marginSMA": 0.060003,
-      "rankValue": 0.042978,
+      "marginSMA": 0.087264,
+      "rankValue": 0.042817,
       "display": "Emerging Markets",
       "leverage": 3,
-      "rebound": -0.004445
+      "rebound": 0.019612
     },
     "GOLD": {
-      "momentum": -0.040177,
+      "momentum": -0.043358,
       "trend": false,
-      "marginSMA": -0.042012,
-      "rankValue": -0.042138,
+      "marginSMA": -0.048504,
+      "rankValue": -0.042981,
       "display": "Gold",
       "leverage": 3,
-      "rebound": 0.025336
+      "rebound": 0.015336
     }
   },
   "freshness": {
     "NASDAQ100": {
-      "last": "2026-09-18",
+      "last": "2026-09-21",
       "fresh": true
     },
     "EM": {
-      "last": "2026-09-18",
+      "last": "2026-09-21",
       "fresh": true
     },
     "GOLD": {
-      "last": "2026-09-18",
+      "last": "2026-09-21",
       "fresh": true
     }
   },
   "history": [
-    {
-      "date": "2025-02-14",
-      "allocation": "NASDAQ100:0.7"
-    },
     {
       "date": "2025-02-18",
       "allocation": "NASDAQ100:0.7"
@@ -1675,6 +1671,10 @@
     },
     {
       "date": "2026-09-18",
+      "allocation": "EM:0.7|GOLD:0.3"
+    },
+    {
+      "date": "2026-09-21",
       "allocation": "EM:0.7|GOLD:0.3"
     }
   ]
