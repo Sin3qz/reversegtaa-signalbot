@@ -1,7 +1,7 @@
 {
   "strategy": "reverse-GTAA (Mean-Reversion-Sleeve)",
   "key": "reversegtaa",
-  "updated": "2026-09-22T11:59:21.280934+02:00",
+  "updated": "2026-09-23T13:00:57.322181+02:00",
   "rebalance": "monthly_last",
   "rebalanceLabel": "letzter Handelstag des Monats",
   "ntfyMode": "monthly",
@@ -10,7 +10,7 @@
     "monthly_first"
   ],
   "asOf": "2026-09-21",
-  "needsRetry": false,
+  "needsRetry": true,
   "changedToday": false,
   "changeType": null,
   "cooldown": 0,
@@ -65,15 +65,15 @@
   "freshness": {
     "NASDAQ100": {
       "last": "2026-09-21",
-      "fresh": true
+      "fresh": false
     },
     "EM": {
       "last": "2026-09-21",
-      "fresh": true
+      "fresh": false
     },
     "GOLD": {
       "last": "2026-09-21",
-      "fresh": true
+      "fresh": false
     }
   },
   "history": [

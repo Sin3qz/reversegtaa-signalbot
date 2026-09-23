@@ -15,5 +15,7 @@ Nasdaq 100        +5.7%      +3.4%      kein Flop2
 
 Kursstand: 21.09.2026
 
+⚠️ Kursdaten evtl. veraltet — ein erwarteter US-Handelstag fehlt. Retry laeuft; bitte pruefen.
+
 Signale auf zuverlaessigen USD-1x-Kursen (Yahoo); kein Xetra-Lag (B1).
 Gehebelte ETPs: Pfad-/Emittentenrisiko. Dekorrelierter Sleeve, kein Kern-Invest. KEINE ANLAGEBERATUNG.
